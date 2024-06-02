@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-image: url('/AnimeWebsite/images/wallpaper2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: block;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, red,blue);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.container .navBar{
+    height: 50px;
+    width: 700px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+    backdrop-filter: blur(10px);
+}
+.navBar a{
+    text-decoration: none;
+    color: rgb(211, 13, 234);
+    margin: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+}
+.navBar a:hover{
+    color: orange;
+    padding: 2px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.img-container .img1{
+    height: 20.2em;
+    width: 100px;
+    background-image: url(/AnimeWebsite/images/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.img-container .img2{
+    height: 20.2em;
+    width: 100px;
+    background-image: url(/AnimeWebsite/images/img2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 4px;
+    
+}
+.img-container .img3{
+    height: 20.2em;
+    width: 100px;
+    background-image: url(/AnimeWebsite/images/img3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 4px;
+    
+}
+.img-container .img4{
+    height: 20.2em;
+    width: 100px;
+    background-image: url(/AnimeWebsite/images/img4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 4px;
+}
+.container-main{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25em;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 5px black;
+}
+.container-main .searchBar-About{
+    width: 450px;
+    padding: 10px;
+}
+.searchBar-About h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(255, 0, 247);
+}
+.searchBar-About label{
+    color: rgb(248, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-right: 2px;
+}
+.searchBar-About input{
+    height: 100%;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: orange;
+    outline: none;
+    background-color: transparent;
+}
+.searchBar-About p{
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 5px;
+    text-align: center;
+    color: rgb(199, 9, 111);
+}
+.searchBar-About span{
+    color:rgb(250, 100, 0)
+}
+.searchBar-About .btn{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: blueviolet;
+    background-color: transparent;
+    border: 1px solid black;
+    padding :15px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.searchBar-About .btn:hover{
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: blueviolet;
+    color: white;
+}
