@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 96vh;
+    background: url('/AnimeWebsite/images/wallpaper2.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headcon h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, red,blue);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.container .navBar{
+    height: 50px;
+    width: 700px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+    backdrop-filter: blur(10px);
+}
+.navBar a{
+    text-decoration: none;
+    color: rgb(211, 13, 234);
+    margin: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+}
+.navBar a:hover{
+    color: orange;
+    padding: 2px;
+}
+.wrapper{
+    margin: auto;
+    background-color: transparent ;
+    backdrop-filter: blur(10px);
+    height: 400px;
+    width: 500px;
+    border: 1px solid black ;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    padding: 40px;
+}
+.wrapper h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(17, 188, 45);
+}
+.wrapper .input-box{
+    height: 40px;
+    margin-bottom: 15px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    outline: none;
+    background-color: transparent;
+    border-radius:20px ;
+    padding: 10px;
+    color: rgb(6, 212, 253);
+}
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin : 15px 0 15px;
+}
+.remember-forget label{
+    color: white;
+}
+.remember-forget label input{
+    accent-color: red;
+    margin-right: 3px;
+}
+.remember-forget a{
+    text-decoration: none;
+    color: white;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+    color: rgb(115, 0, 141);
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    color: blueviolet;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+    margin: 10px  0px 0px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 1s;
+}
+.btn:hover{
+    border: 1px solid black;
+    color: white;
+    background-color: blueviolet;
+}
+
+.wrapper .registration-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.registration-link p {
+    color: white;
+}
+.registration-link p a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(187, 5, 187);
+    padding: 5px;
+}
+.registration-link p a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display:flex;
+    justify-content: space-between;
+    background: url('/AnimeWebsite/images/wallpaper2.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+}
+.sidebar{
+    position: fixed;
+    height: 86vh;
+    width: 120px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 5px black;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+.sidebar li{
+    padding: 15px;
+    margin: 15px;
+}
+.sidebar a{
+    text-decoration: none;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+.sidebar a:hover{
+    font-size: 21px;
+    color: rgb(12, 84, 100);
+}
